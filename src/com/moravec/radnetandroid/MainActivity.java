@@ -1,8 +1,10 @@
 package com.moravec.radnetandroid;
 
-import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
 import android.view.Menu;
+import android.view.View;
 
 public class MainActivity extends Activity {
 
@@ -19,4 +21,18 @@ public class MainActivity extends Activity {
 		return true;
 	}
 
+	public void dataInput(View view){
+		//do something when user clicks on the data input button
+		Intent intent = new Intent(this, DataInputScreen.class);
+		startActivity(intent);
+	}
+	
+	public void learnData(View view){
+		//do something when click learn data
+
+	}
+	
+	public void about(View view){
+		//about button
+	}
 }

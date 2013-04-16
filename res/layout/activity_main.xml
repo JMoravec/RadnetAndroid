@@ -8,9 +8,48 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/learnButton"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
-
+        android:text="@string/learnButton"
+        android:onClick="learnData"
+        android:layout_centerVertical="true"
+    />
+    
+    <View
+        android:id="@+id/empty2"
+        android:layout_width="1dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/learnButton">
+    </View>
+    
+    <View
+        android:id="@+id/empty"
+        android:layout_width="1dp"
+        android:layout_height="30dp"
+        android:layout_above="@id/learnButton">
+    </View>    
+    
+    <Button
+        android:id="@+id/dataInputButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dataInputButton"
+        android:onClick="dataInput"
+        android:layout_centerVertical="true"
+        android:layout_above="@id/empty"
+	/>
+    
+   <Button 
+       android:id="@+id/aboutButton"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/aboutButton"
+       android:onClick="about"
+       android:layout_centerVertical="true"
+       android:layout_below="@id/empty2"/> 
+    
+    
+    
 </RelativeLayout>

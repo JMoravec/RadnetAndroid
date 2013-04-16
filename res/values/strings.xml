@@ -3,6 +3,10 @@
 
     <string name="app_name">Radnet Android</string>
     <string name="action_settings">Settings</string>
+    <string name="dataInputButton">Data Input</string>
+    <string name="learnButton">Learn what\'s going on</string>
+    <string name="aboutButton">About</string>
+    <string name="title_activity_data_input_screen">DataInputScreen</string>
     <string name="hello_world">Hello world!</string>
 
 </resources>
